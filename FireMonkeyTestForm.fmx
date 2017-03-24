@@ -1,0 +1,34 @@
+object Form27: TForm27
+  Left = 0
+  Top = 0
+  Caption = 'Firemonkey Font Loading Test'
+  ClientHeight = 158
+  ClientWidth = 665
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object FireMonkeyLabel: TLabel
+    StyledSettings = [Style, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 649.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Assimilate'
+    TextSettings.Font.Size = 32.000000000000000000
+    Text = 'FireMonkey Label Using Tahoma Font'
+  end
+  object CloseButton: TButton
+    StyledSettings = []
+    Position.X = 408.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Close Dialog'
+    OnClick = CloseButtonClick
+  end
+end
